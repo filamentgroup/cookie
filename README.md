@@ -6,8 +6,9 @@ Get, set, or forget cookies.
 * [c]2014 @scottjehl, Filament Group, Inc. 
 * Licensed MIT 
 
-Based on code from both http://stackoverflow.com/questions/14573223/set-cookie-and-get-cookie-with-javascript and http://www.quirksmode.org/js/cookies.html
-
+Based on code examples found at: 
+- http://stackoverflow.com/posts/15724300/revisions by stackoverflow user kirlich
+- http://www.quirksmode.org/js/cookies.html by PPK
 
 # API
 
