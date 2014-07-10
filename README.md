@@ -2,6 +2,7 @@ cookie function
 ======
 
 Get, set, or forget cookies.
+
 Based on code from both http://stackoverflow.com/questions/14573223/set-cookie-and-get-cookie-with-javascript and http://www.quirksmode.org/js/cookies.html
 
 * [c]2014 @scottjehl, Filament Group, Inc. 
