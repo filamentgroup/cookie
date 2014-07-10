@@ -10,17 +10,18 @@ Based on code from both http://stackoverflow.com/questions/14573223/set-cookie-a
 
 
 # API
-* To get a cookie, pass only a name. It'll return `null` if undefined.
+
+To get a cookie, pass only a name. It'll return `null` if undefined.
 ```js
 cookie( "foo" );
 ```
 
-* To set a cookie, pass a name, a string value, and optionally a number of days until the cookie expires
+To set a cookie, pass a name, a string value, and optionally a number of days until the cookie expires
 ```js
 cookie( "foo", "bar", 5 );
 ```
 
-* To delete a cookie, pass a name, and a `false` value
+To delete a cookie, pass a name, and a `false` value
 ```js
 cookie( "foo", false );
 ```
