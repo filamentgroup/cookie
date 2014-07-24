@@ -4,7 +4,7 @@ function cookie( name, value, days ){
 	if( value === undefined ){
 		var cookiestring = "; " + window.document.cookie;
 		var cookies = cookiestring.split( "; " + name + "=" );
-		if ( cookies.length == 2 ){
+		if ( cookies.length === 2 ){
 			return cookies.pop().split( ";" ).shift();
 		}
 		return null;
@@ -14,13 +14,14 @@ function cookie( name, value, days ){
 		if( value === false ){
 			days = -1;
 		}
+		var expires;
 		if ( days ) {
 			var date = new Date();
 			date.setTime( date.getTime() + ( days * 24 * 60 * 60 * 1000 ) );
-			var expires = "; expires="+date.toGMTString();
+			expires = "; expires="+date.toGMTString();
 		}
 		else {
-			var expires = "";
+			expires = "";
 		}
 		window.document.cookie = name + "=" + value + expires + "; path=/";
 	}
