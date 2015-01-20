@@ -1,0 +1,22 @@
+{
+  "name": "fg-cookie",
+  "version": "0.1.0",
+  "description": "Get, set, forget cookies!",
+  "main": "cookie.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/filamentgroup/cookie.git"
+  },
+  "keywords": [
+    "cookie"
+  ],
+  "author": "Zach Leatherman <zachleatherman@gmail.com> (http://zachleat.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filamentgroup/cookie/issues"
+  },
+  "homepage": "https://github.com/filamentgroup/cookie"
+}
