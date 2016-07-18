@@ -1,6 +1,6 @@
 {
   "name": "fg-cookie",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "Get, set, forget cookies!",
   "main": "cookie.js",
   "scripts": {
